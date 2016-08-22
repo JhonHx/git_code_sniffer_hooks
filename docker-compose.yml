@@ -1,0 +1,6 @@
+git_code_sniffer:
+    image: git_code_sniffer_hooks
+    volumes:
+        - .:/var/www/saas
+#command: /root/bin/git_code_sniffer_hooks/bin/phpcs ./
+#command:  sh -c "php /root/bin/git_code_sniffer_hooks/bin/phpcs /var/www/saas/"
